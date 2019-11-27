@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\tiago\\.nuget\\packages\\": {}
+    "C:\\Users\\A030970\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tiago\\source\\repos\\WebApiWebsite\\BookiApi\\BookiApi.csproj",
+      "projectUniqueName": "C:\\Users\\A030970\\Source\\Repos\\WebApiWebsite\\BookiApi\\BookiApi.csproj",
       "projectName": "BookiApi",
-      "projectPath": "C:\\Users\\tiago\\source\\repos\\WebApiWebsite\\BookiApi\\BookiApi.csproj",
-      "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tiago\\source\\repos\\WebApiWebsite\\BookiApi\\obj\\",
+      "projectPath": "C:\\Users\\A030970\\Source\\Repos\\WebApiWebsite\\BookiApi\\BookiApi.csproj",
+      "packagesPath": "C:\\Users\\A030970\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\A030970\\Source\\Repos\\WebApiWebsite\\BookiApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\A030970\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
