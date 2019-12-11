@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A030970\\Source\\Repos\\WebApiWebsite\\BookiApi\\BookiApi.csproj": {}
+    "C:\\Users\\a030840\\source\\repos\\WebApiWebsite\\BookiApi\\BookiApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A030970\\Source\\Repos\\WebApiWebsite\\BookiApi\\BookiApi.csproj": {
+    "C:\\Users\\a030840\\source\\repos\\WebApiWebsite\\BookiApi\\BookiApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A030970\\Source\\Repos\\WebApiWebsite\\BookiApi\\BookiApi.csproj",
+        "projectUniqueName": "C:\\Users\\a030840\\source\\repos\\WebApiWebsite\\BookiApi\\BookiApi.csproj",
         "projectName": "BookiApi",
-        "projectPath": "C:\\Users\\A030970\\Source\\Repos\\WebApiWebsite\\BookiApi\\BookiApi.csproj",
-        "packagesPath": "C:\\Users\\A030970\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A030970\\Source\\Repos\\WebApiWebsite\\BookiApi\\obj\\",
+        "projectPath": "C:\\Users\\a030840\\source\\repos\\WebApiWebsite\\BookiApi\\BookiApi.csproj",
+        "packagesPath": "C:\\Users\\a030840\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a030840\\source\\repos\\WebApiWebsite\\BookiApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\A030970\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a030840\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

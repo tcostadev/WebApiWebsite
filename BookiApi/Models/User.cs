@@ -1,18 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace BookiApi.Models
 {
     public class User
     {
-        public int id { get; set; }
-        public string username { get; set; }
-        public string password { get; set; }
-        public string nome { get; set; }
-        public string morada { get; set; }
-        public string codigoPostal { get; set; }
-        public Localizacao idLocalizacao { get; set; }
+        public int Id { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string Nome { get; set; }
+        public string Morada { get; set; }
+        public string CodigoPostal { get; set; }
+        public int LocalizacaoId { get; set; }
+        public ICollection<ReservaHotel> Reservas { get; set; }
     }
 }

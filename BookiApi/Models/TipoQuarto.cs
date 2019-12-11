@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace BookiApi.Models
 {
     public class TipoQuarto
     {
-        public int idTipoQuarto { get; set; }
-        public string designacao { get; set; }
-        public int capacidade { get; set; }
+        public int Id { get; set; }
+        public string Designacao { get; set; }
+        public int Capacidade { get; set; }
+        public ICollection<TarifasHotel> Tarifas { get; set; }
     }
 }

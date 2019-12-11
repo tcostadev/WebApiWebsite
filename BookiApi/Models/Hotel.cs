@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace BookiApi.Models
 {
     public class Hotel
     {
-        public int idHotel { get; set; }
-        public string nome { get; set; }
-        public string morada { get; set; }
-        public string codPostal { get; set; }
-        public float classificacao { get; set; }
-        public Localizacao idLocalizacao { get; set; }
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Morada { get; set; }
+        public string CodPostal { get; set; }
+        public float Classificacao { get; set; }
+        public int LocalizacaoId { get; set; }
+        public ICollection<TarifasHotel> Tarifas { get; set; }
     }
 }

@@ -1,16 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace BookiApi.Models
 {
     public class ReservaHotel
     {
-        public int idReservaHotel { get; set; }
-        public DateTime dataInicio { get; set; }
-        public DateTime dataFim { get; set; }
-        public int nrHospedes { get; set; }
+        public int Id { get; set; }
+        public DateTime DataInicio { get; set; }
+        public DateTime DataFim { get; set; }
+        public int NrHospedes { get; set; }
+        public int UserId { get; set; }
+        public int TarifaHotelId { get; set; }
     }
 }
 
