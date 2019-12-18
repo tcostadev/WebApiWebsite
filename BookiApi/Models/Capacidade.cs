@@ -1,6 +1,6 @@
 ﻿namespace BookiApi.Models
 {
-    public class CapacidadeTipoQuartocs
+    public class Capacidade
     {
         public int TarifasHotelId { get; set; }
         public int HotelId { get; set; }

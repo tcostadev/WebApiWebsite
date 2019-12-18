@@ -10,6 +10,7 @@ namespace BookiApi.Models
         public string CodPostal { get; set; }
         public float Classificacao { get; set; }
         public int LocalizacaoId { get; set; }
-        public ICollection<TarifasHotel> Tarifas { get; set; }
+        public ICollection<Tarifa> Tarifas { get; set; }
+        public ICollection<Capacidade> Capacidades { get; set; }
     }
 }

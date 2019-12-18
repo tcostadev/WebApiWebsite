@@ -11,6 +11,6 @@ namespace BookiApi.Models
         public string Morada { get; set; }
         public string CodigoPostal { get; set; }
         public int LocalizacaoId { get; set; }
-        public ICollection<ReservaHotel> Reservas { get; set; }
+        public ICollection<Reserva> Reservas { get; set; }
     }
 }

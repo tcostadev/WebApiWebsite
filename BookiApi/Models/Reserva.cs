@@ -2,7 +2,7 @@
 
 namespace BookiApi.Models
 {
-    public class ReservaHotel
+    public class Reserva
     {
         public int Id { get; set; }
         public DateTime DataInicio { get; set; }
