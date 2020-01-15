@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace BookiApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class ReservasController : Controller
     {
