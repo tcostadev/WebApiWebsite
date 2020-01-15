@@ -71,6 +71,12 @@ namespace BookiApi.Controllers
             }
             else
             {
+                var userExistente = _dataContext.Users.Where(x => x.Id != entity.Id && x.Username == user.Username);
+                if (userExistente.Any())
+                {
+                    return NotFound("User already used!");
+                }
+
                 entity.Nome = user.Nome;
                 entity.Username = user.Username;
                 entity.Password = user.Password;
