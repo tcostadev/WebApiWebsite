@@ -50,6 +50,11 @@ namespace BookiApi.Controllers
         public IActionResult SaveUser(User user)
         {
             _dataContext.Users.Add(user);
+            var userExistente = _dataContext.Users.Find(user.Username);
+            if (userExistente != null)
+            {
+                return NotFound("User already created");
+            }
             _dataContext.SaveChanges();
             return StatusCode(StatusCodes.Status201Created);
         }
@@ -59,6 +64,7 @@ namespace BookiApi.Controllers
         public IActionResult UpdateUser(int id, User user)
         {
             var entity = _dataContext.Users.Find(id);
+
             if (entity == null)
             {
                 return NotFound("No User Found...");
